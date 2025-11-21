@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Julian Schmidt Portfolio</title>
+	<meta name="description" content="Portfolio of Julian Schmidt, a Web Developer.">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="" rel="shortcut icon">
+	<link href="resources/style.css" rel="stylesheet">
+	<link href="resources/fontawesome/css/fontawesome.min.css" rel="stylesheet">
+	<link href="resources/fontawesome/css/regular.min.css" rel="stylesheet">
+	<link href="resources/fontawesome/css/brands.min.css" rel="stylesheet">
+	<link href="resources/fontawesome/css/solid.min.css" rel="stylesheet">
+	<script src="resources/script.js"></script>
+</head>
+<body>
+
+    <div class="char-sheet">
+        <header>
+            <div class="avatar-container">
+                <div class="avatar-placeholder"><img src="resources/images/Bewerbungsfoto.jpeg" alt="Julian Schmidt"></div> 
+            </div>
+            
+            <div class="header-info">
+                <div class="name-title">
+                    <h1>Julian Schmidt</h1>
+                    <span class="class-badge">Full Stack Developer</span>
+                </div>
+
+                <div class="stats-grid">
+                    <div class="stat-box">
+                        <div class="stat-label">Level (Exp)</div>
+                        <div class="stat-value">2 (Junior)</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-label">Main Focus</div>
+                        <div class="stat-value">Frontend & UI</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-label">Languages</div>
+                        <div class="stat-value">German / English</div>
+                    </div>
+                </div>
+
+                <div class="contact-info">
+                    <div class="contact-item">
+						<a href="mailto:js4595@hotmail.com">
+							<span><i class="fa-regular fa-envelope"></i></span>
+							js4595@hotmail.com
+						</a>
+                    </div>
+                    <div class="contact-item">
+						<a href="https://www.linkedin.com/in/julian-schmidt-52b059249/" target="_blank">
+                        	<span><i class="fa-brands fa-linkedin"></i></span>
+							Linkedin
+                        </a>
+                    </div>
+                    <div class="contact-item">
+                        <span><i class="fa-solid fa-location-pin"></i></span>
+                        <span>Laufenburg (Baden), Germany</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <nav>
+            <ul class="tabs">
+                <li><button class="tab-btn active" onclick="openTab('experience')">Experience</button></li>
+                <li><button class="tab-btn" onclick="openTab('projects')">Projects</button></li>
+                <li><button class="tab-btn" onclick="openTab('education')">Education</button></li>
+                <li><button class="tab-btn" onclick="openTab('skills')">Skills & Tech</button></li>
+                <li><button class="tab-btn" onclick="openTab('hobbies')">Hobbies</button></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section id="experience" class="section-content active">
+                <h2><span>⚔️</span> Quest Log (Work History)</h2>
+				<div class="timeline-item">
+                    <div class="job-title">Game Developer (Godot Engine)</div>
+                    <div class="job-meta">Freelance / Self-employed | 2025 - Present</div>
+                    <p>Began working on my very own Game Project at the start of 2025.</br>
+					Got hired as a Freelancer to develop several Mobile/Web Game Prototypes.
+					</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="job-title">Junior Full Stack Developer</div>
+                    <div class="job-meta">ImmoServer AG | 2023 - Present</div>
+                    <p>Developing responsive Websites using HTML, CSS, JavaScript and PHP.</br>
+					Collaborating with external design teams to improve UX.</br>
+					Designed and Developed a Template for the in-house CMS System.</br>
+					Created training videos to onboard new customers to the CMS.
+					</p>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="job-title">Junior Order Processing Assistant</div>
+                    <div class="job-meta">APM Kommunikations- und Sicherheitstechnik GmbH | 2022 - 2023</div>
+                    <p>Managed client accounts and prepared technical quotations for IT systems.</br>
+					Provided technical support via phone and configured Cloud PBX accounts.</br>
+					Onboarded new employees and created comprehensive training documentation.</p>
+                </div>
+				<div class="timeline-item">
+                    <div class="job-title">Security & Operations Specialist</div>
+                    <div class="job-meta">WSD-Werkschutzdienst Sicherheitsdienste Grether e. K. | 2017 - 2022</div>
+                    <p>Ensured property safety through regular patrols and strict access control.</br>
+					Managed administrative tasks including incident reporting and maintaining complex Excel logs.</br>
+					Served as a first responder and handled telephonic customer inquiries.</p>
+                </div>
+            </section>
+
+            <section id="projects" class="section-content">
+                <h2><span>🗺️</span> Adventure Log (Projects)</h2>
+                
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-content">
+                            <div class="project-title">Bullethell Game Prototype</div>
+                            <div class="tech-stack-mini">
+                                <span class="tech-badge">Godot Engine</span>
+                                <span class="tech-badge">GDScript</span>
+                                <span class="tech-badge">Krita (Doodle Assets)</span>
+                            </div>
+                            <p class="project-desc">A Vampire Survivor-Like Game Prototype for Android.</p>
+                            <div class="project-links">
+                                <a href="https://github.com/Lyuris1995/bullethellgame" target="_blank">View Code</a>
+                                <a href="https://drive.google.com/file/d/11Y93AaoOp3dgvTQJp9PNRucOsnCPjCOQ/view?usp=sharing" target="_blank">Demo (.apk file)</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-content">
+                            <div class="project-title">Zukunft Tiergarten</div>
+                            <div class="tech-stack-mini">
+                                <span class="tech-badge">PHP</span>
+                                <span class="tech-badge">JavaScript</span>
+                                <span class="tech-badge">CSS3</span>
+                            </div>
+                            <p class="project-desc">Full Stack Website for a Real Estate Agency. I worked close together with the Designer for this Page.</br>
+							Content is CMS-Managed by the Customer.</p>
+                            <div class="project-links">
+                                <a href="https://www.zukunft-tiergarten.ch/" target="_blank">Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+
+					<div class="project-card">
+                        <div class="project-content">
+                            <div class="project-title">Davos Valbella</div>
+                            <div class="tech-stack-mini">
+                                <span class="tech-badge">PHP</span>
+                                <span class="tech-badge">JavaScript</span>
+                                <span class="tech-badge">CSS3</span>
+								<span class="tech-badge">CSS Keyframe Animation</span>
+                            </div>
+                            <p class="project-desc">Full Stack Website for another Real Estate Agency. I worked close together with the Designer for this Page.</br>
+							Content is CMS-Managed by the Customer.</p>
+                            <div class="project-links">
+                                <a href="https://www.davos-valbella.ch/" target="_blank">Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+					
+					<div class="project-card">
+                        <div class="project-content">
+                            <div class="project-title">Paper Heroes (Working Title)</div>
+                            <div class="tech-stack-mini">
+                                <span class="tech-badge">Godot Engine</span>
+                                <span class="tech-badge">GDScript</span>
+                                <span class="tech-badge">Krita</span>
+								<span class="tech-badge">Notion</span>
+                            </div>
+                            <p class="project-desc">My own Game Project, a tactical Roguelike/lite RPG. Not much to show yet, mainly working on the Technical Part.</br>
+							Tactical, Tile-Based Combat System is done.</p>
+                            <div class="project-links">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="education" class="section-content">
+                <h2><span>📜</span> Lore & Training (Education)</h2>
+                
+                <div class="timeline-item">
+                    <div class="job-title">Professional Full Stack Developer Training</div>
+                    <div class="job-meta">DBE Academy Stuttgart | 09/2023 - 02/2024</div>
+                    <p>Intensive specialization program focused on modern web development.</br>
+					Acquired in-depth knowledge of frontend and backend technologies to build scalable web applications.</p>
+                </div>
+				<div class="timeline-item">
+                    <div class="job-title">Web-Developer Masterclass Training</div>
+                    <div class="job-meta">Udemy.com | 08/2023 - 09/2023</div>
+                    <p>Took the "Die komplette Web-Entwickler Masterclass" Course on Udemy.com to prepare for my Professional Full Stack Developer Training.</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="job-title">Salesperson Certificate</div>
+                    <div class="job-meta">Industrie- und Handelskammer Hochrhein-Bodensee | 09/2013 - 07/2015</div>
+                    <p>Chamber of Commerce and Industry qualification as a salesperson</p>
+                </div>
+            </section>
+
+            <section id="skills" class="section-content">
+                <h2><span>⚡</span> Abilities & Spells (Skills)</h2>
+                
+                <p style="margin-bottom: 15px;"><strong>Core Proficiencies:</strong></p>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>HTML5 & CSS3</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="progress-bar-bg">
+                            <div class="progress-bar-fill" style="width: 90%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>JavaScript (ES6+)</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="progress-bar-bg">
+                            <div class="progress-bar-fill" style="width: 70%"></div>
+                        </div>
+                    </div>
+					<div class="skill-item">
+                        <div class="skill-header">
+                            <span>GDScript</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="progress-bar-bg">
+                            <div class="progress-bar-fill" style="width: 80%"></div>
+                        </div>
+                    </div>
+					<div class="skill-item">
+                        <div class="skill-header">
+                            <span>Godot Game Engine</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="progress-bar-bg">
+                            <div class="progress-bar-fill" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>Git / Version Control</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="progress-bar-bg">
+                            <div class="progress-bar-fill" style="width: 75%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>Responsive Design</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="progress-bar-bg">
+                            <div class="progress-bar-fill" style="width: 85%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <p style="margin-top: 25px; margin-bottom: 10px;"><strong>Inventory (Toolbelt):</strong></p>
+                <div class="tags-container">
+                    <span class="tag">VS Code</span>
+					<span class="tag">Visual Studio</span>
+                    <span class="tag">Figma</span>
+                    <span class="tag">Bootstrap</span>
+                    <span class="tag">SASS</span>
+                    <span class="tag">NPM</span>
+                    <span class="tag">Chrome DevTools</span>
+                    <span class="tag">GitHub</span>
+                    <span class="tag">Agile / Scrum</span>
+					<span class="tag">Unity Game Engine</span>
+					<span class="tag">C# (Basics)</span>
+                </div>
+            </section>
+
+            <section id="hobbies" class="section-content">
+                <h2><span>🎲</span> Side Quests (Hobbies)</h2>
+                <p style="margin-bottom: 20px;">What I do to recharge my mana:</p>
+				<div style="background: #e6f7f5; padding: 15px; border-radius: 8px; margin-bottom: 25px; border-left: 4px solid var(--primary-color);">
+                    <p style="font-style: italic; color: var(--primary-dark); font-weight: 500;">
+                        "Programming is not just my profession, it is my passion. I successfully changed careers specifically because I genuinely enjoy building software and solving problems through code."
+                    </p>
+                </div>
+                <div class="hobbies-grid">
+                    <div class="hobby-card">
+                        <h3>Tabletop RPGs</h3>
+                        <p style="font-size: 0.9rem; color: #666;">(Junior) Game Master and Player. Mainly D&D, but also interested in Daggerheart.</p>
+                    </div>
+                    <div class="hobby-card">
+                        <h3>(Digital) Drawing</h3>
+                        <p style="font-size: 0.9rem; color: #666;">Character & UI Design, mainly for my own Video Game.</p>
+                    </div>
+                    <div class="hobby-card">
+                        <h3>Swimming</h3>
+                        <p style="font-size: 0.9rem; color: #666;">Going for a swim to relax and to get fit. I also love Hot Tubs.</p>
+                    </div>
+					<div class="hobby-card">
+                        <h3>Family Time</h3>
+                        <p style="font-size: 0.9rem; color: #666;">Spending Time with my Wife, our Newborn and our 2 Cats.</p>
+                    </div>
+					<div class="hobby-card">
+                        <h3>Video Games</h3>
+                        <p style="font-size: 0.9rem; color: #666;">I love Playing Video Games (mostly RPG's).</br>
+						My Favourite Games are Baldur's Gate 3, Divinity: Original Sin 2, Paper Mario 2 and Kingdom Hearts 2.</p>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+</body>
+</html>
