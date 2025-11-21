@@ -420,3 +420,17 @@ h2 span {
         text-align: left;
     }
 }
+
+@media(max-width: 500px) {
+    body {
+        padding: 10px;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    .project-content {
+        padding: 10px;
+    }
+}
